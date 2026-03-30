@@ -1,0 +1,25 @@
+{
+  "name": "bytemine",
+  "version": "1.0.0",
+  "description": "Search 130M+ B2B contacts and enrich profiles with verified emails & phone numbers via MCP",
+  "url": "https://bvjmtgaxijpyasjtaqiv.supabase.co/functions/v1/mcp-server",
+  "transport": "streamable-http",
+  "avatar": "https://bvjmtgaxijpyasjtaqiv.supabase.co/storage/v1/object/public/email-assets/bytemine-logo.png",
+  "tools": [
+    {
+      "name": "people_search",
+      "description": "Search 130M+ B2B contacts by job title, company, location, industry, seniority, and more."
+    },
+    {
+      "name": "contact_enrich",
+      "description": "Get verified email, phone numbers, and full profile for a contact via PID or LinkedIn URL."
+    }
+  ],
+  "authentication": {
+    "type": "parameter",
+    "parameter": "api_key",
+    "description": "Bytemine workspace API key"
+  },
+  "homepage": "https://bytemine.io",
+  "repository": "https://github.com/kzarov/bytemine-bytemine-mcp"
+}
